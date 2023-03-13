@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="R3fsVU" name="midiTry" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn">
+  <MAINGROUP id="z7WUp6" name="midiTry">
+    <GROUP id="{B6B08D06-CCE8-4806-C61A-B47AD01A5FCD}" name="Source">
+      <GROUP id="{DD778590-DE85-B3B9-FB0A-6471AC9BFA7E}" name="Assets">
+        <FILE id="mFyLCj" name="pluginBackground.png" compile="0" resource="1"
+              file="Source/Assets/pluginBackground.png" xcodeResource="1"/>
+      </GROUP>
+      <FILE id="Gbfyro" name="Oscillators.h" compile="0" resource="0" file="Source/Oscillators.h"/>
+      <FILE id="F9I6hm" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="VzI9VJ" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="DY1ckc" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="cmTiM7" name="MySynth.h" compile="0" resource="0" file="Source/MySynth.h"/>
+      <FILE id="gXuOVx" name="DelayLine.h" compile="0" resource="0" file="Source/DelayLine.h"/>
+      <FILE id="kNQQbP" name="NoiseGenerator.h" compile="0" resource="0"
+            file="Source/NoiseGenerator.h"/>
+      <FILE id="aRAciR" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="midiTry"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="midiTry"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../modules"/>
+        <MODULEPATH id="juce_core" path="../../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../modules"/>
+        <MODULEPATH id="juce_events" path="../../modules"/>
+        <MODULEPATH id="juce_graphics" path="../../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
