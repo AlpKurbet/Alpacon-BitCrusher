@@ -32,7 +32,7 @@
 ---
 
 ## 🏗 Architecture & Code Organization
-├── Source/
+```├── Source/
 │   ├── PluginProcessor.cpp / .h   # Core audio processing
 │   ├── PluginEditor.cpp / .h      # GUI / parameter bindings
 │   ├── DSP/                        # DSP helper classes & modules
@@ -42,7 +42,7 @@
 │   ├── Utils/                      # Utility functions (clamp, interpolation, etc)
 │   └── Common/                     # Shared headers & constants
 └── Build / Projucer / CMake files
-
+```
 ---
 
 ## 🧪 Building & Usage
